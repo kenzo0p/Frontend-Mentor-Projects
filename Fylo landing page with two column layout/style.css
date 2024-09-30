@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero {
+    padding: 20px;
+
+
+}
+
+.nav-func {
+    span {
+        margin-right: 30px;
+    }
+}
+
+nav {
+    max-width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 20;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.cont-info {
+    max-width: 550px;
+}
+
+.input {
+    height: 10px;
+    width: 300px;
+    padding: 10px;
+    opacity: 0.7;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.input-it {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: hsl(224, 93%, 58%);
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.heading {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.main-t {
+    background-image: url("bg-curve-desktop.svg");
+    background-color: hsl(240, 75%, 98%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+    p {
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        color: hsl(170, 45%, 43%);
+
+        img {
+            height: 20px;
+        }
+    }
+
+    h1 {
+        margin-bottom: 30px;
+    }
+}
+
+.main-info {
+    width: 550px;
+
+}
+
+.main-card {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.main-card-i {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+    img {
+        border-radius: 50%;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+
+}
+
+span {
+    .down {
+        margin-top: -2px;
+    }
+}
+
+
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(238, 22%, 44%);
+    padding: 50px 20px 30px 20px;
+}
+
+.info-l {
+    width: 550px;
+}
+
+.l-heading {
+    color: white;
+
+}
+
+.l-para {
+    color: white;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.input-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.input-v {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.bt-i {
+    background-color: hsl(224, 93%, 58%);
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    font-weight: 300;
+    padding: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.f-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 5px;
+        }
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-b {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    margin-top: 10px;
+
+    img {
+        margin-right: 5px;
+    }
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.bt-i:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.ank:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.soc {
+    filter: invert(1);
+    height: 20px;
+}
+
+.soc:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px cyan);
+}
+
+.about {
+    a:hover {
+        text-decoration: underline;
+        color: cyan;
+    }
+}
+
+.about-b {
+    a:hover {
+        text-decoration: underline;
+        color: cyan;
+    }
+}
+
+@media (max-width:450px) {
+    .nav-func {
+        span {
+            margin-right: 5px;
+        }
+
+    }
+
+    .logo-a {
+        height: 25px;
+    }
+
+    .content {
+        margin-top: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .input-it {
+        flex-direction: column;
+        align-items: center;
+
+        button {
+            margin-top: 10px;
+        }
+    }
+
+    .con-img {
+        margin-top: 60px;
+
+        img {
+            height: 260px;
+
+        }
+
+    }
+
+    .cont-info {
+        max-width: 350px;
+    }
+
+    .main-t{
+        background-image: url("bg-curve-mobile.svg");
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+
+    }
+    .main-info{
+        width: 350px;
+
+    }
+    .main-card{
+        width: 250px;
+    }
+    .main-img{
+        margin-top: 50px; 
+        img{
+            height: 270px;
+        }
+    }
+
+
+    .last{
+        flex-direction: column;
+        
+    }
+    .info-l{
+        width: 350px;
+        text-align: center;
+    }
+
+    .input-b{
+        margin-top: 30px;
+    }
+
+    .f-item{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about{
+        margin-top: 50px;
+    }
+    .about-b{
+        margin-top: 50px;
+
+    }
+    .social{
+        margin-top: 50px;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:890px){
+    .content{
+        margin-top: 30px;
+    }
+    .cont-info{
+        max-width:300px;
+        
+    }
+
+    .con-img{
+        img{
+            height: 300px;
+        }
+    }
+
+    .main-info{
+        width: 300px;
+    }
+    .main-img{
+        img{
+            height: 300px;
+        }
+    }
+
+    .main-t{
+        justify-content: space-between;
+    }
+
+
+
+
+}                

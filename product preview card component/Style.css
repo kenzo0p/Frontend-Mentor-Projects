@@ -1,0 +1,88 @@
+
+main{
+    background-color:hsl(30, 38%, 92%) ;
+    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+  
+}
+h1{
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color:hsl(212, 21%, 14%) ;
+}
+.body{
+    /* border: 2px solid black; */
+    width: 300px;
+    /* background-color:hsl(30, 38%, 92%) ; */
+    padding-left:14px ;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    color: hsl(228, 12%, 48%);
+}
+.per{
+    font-weight: 700;
+}
+img{
+    height: 60vh;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+}
+.money{
+    color: hsl(158, 36%, 37%);
+}
+button{
+    height: 5vh;
+    width: 18vh;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 7px;
+    font-weight: 700;
+}
+button:hover{
+    background-color: rgb(2, 19, 2);
+}
+s{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin-left: 2px;
+
+}
+.custom-button{
+    cursor: pointer;
+}
+
+@media (max-width: 665px){
+    .responsive-image{
+        height: 35vh;
+        border-top-left-radius:20px ;
+        border-bottom-left-radius:0px ;
+        border-top-right-radius: 20px;
+    }
+    main{
+        display: list-item;
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    button{
+        height: 6vh;
+        width: 45vh;
+        border-radius: 9px;
+        font-weight: 700;
+    }
+    .body{
+        padding-left: 0;
+        width: auto;
+    }
+}

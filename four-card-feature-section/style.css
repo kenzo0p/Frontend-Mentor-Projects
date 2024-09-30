@@ -1,0 +1,116 @@
+
+.main{
+  font-weight: 400;
+  font-family: "Poppins", system-ui;
+  color: hsl(234, 12%, 34%);
+  font-style: normal;
+  text-align: center;
+  place-self:center;
+
+}
+.main .header{
+  font-weight: 300;
+  font-size: 32px;
+  font-family: "Poppins", system-ui;
+  font-style: normal;
+  text-align: center;
+
+}
+.main h1{
+  margin-top: -20px;
+}
+.header-line{
+  text-align: center;
+  margin-top: -20px;
+
+}
+h2{
+  font-family: "Poppins", system-ui;
+  font-weight:600;
+  font-style: normal;
+  color: hsl(234, 12%, 34%);
+}
+p{
+  font-family: "Poppins", system-ui;
+  font-weight:300;
+  font-style: normal;
+  color:hsl(229, 6%, 66%);
+  font-size: 15px;
+
+}
+.container{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns:1fr 1fr 1fr;
+  margin-top: -20px;
+}
+.card{
+  width: 300px;
+  box-shadow: 10px 5px 5px grey;
+}
+.one{
+  border-top: 4px solid hsl(180, 62%, 55%);
+  border-radius: 7px;
+  place-self: end;
+  margin-top: 250px; 
+}
+.two{
+  border-top: 4px solid hsl(212, 86%, 64%);
+  border-radius: 7px;
+  place-self:center;
+}
+.three{
+  border-top: 4px solid hsl(34, 97%, 64%);
+  border-radius: 7px;
+  place-self:start;
+  margin-top: 250px;
+}
+.four{
+  border-top: 4px solid hsl(0, 78%, 62%);
+  border-radius: 7px;
+  place-self: center;
+  grid-column: 2;
+  grid-row: 2;
+
+}
+.attribution { 
+  font-size: 15px; 
+  text-align:center;
+  color: black;
+  font-weight: 200;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
+svg{
+  margin-left: 180px;
+}
+
+@media (max-width:804px){
+  .container{
+    grid-template-rows:0;
+    grid-template-columns:0;
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .one{
+    place-self: center;
+    margin-top:0; 
+  }
+  .two{
+    place-self:center;
+  }
+  .three{
+    margin-top:0;
+    place-self: center;
+  }
+  .four{
+    place-self:center;
+    grid-column: 0;
+    grid-row:0;
+  
+  }
+
+}

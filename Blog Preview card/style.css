@@ -1,0 +1,147 @@
+*{
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+    width: 400px;
+    max-width: 450px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    align-items: baseline;
+    padding: 20px;
+    margin-top: 20px;
+    
+    
+    
+    box-shadow: 10px 10px 10px 10px hsl(0, 0%, 7%);
+}
+.lear{
+    font-weight: 800;
+    height: 30px;
+    width: 90px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    margin-top: 7px;
+
+    
+    
+
+}
+svg{
+    background-color: white;
+    border-radius: 20px;
+    align-self: center;
+    
+
+}
+h1,p,img,span,h2{
+    background-color: white;
+}
+h1:hover{
+    color:hsl(47, 88%, 63%) ;
+}
+p{
+    color: hsl(0, 0%, 42%);
+}
+.pub{
+    font-size: 20px;
+    color: black;
+    font-weight: 450;
+}
+.attribution { 
+    font-size: 11px;
+ 
+    flex-direction: row;
+   
+    
+    margin-top: 30px;
+    
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
+title{
+    display: none;
+}
+h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+p{
+    margin-left: 30px;
+}
+
+span{
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 376px) {
+    * {
+      font-size: 13px; /* Further reduce font size for smaller screens */
+      padding: 8px; /* Adjust padding for smaller screens */
+      justify-content: flex-start; /* Align items towards the start */
+      margin: 0; /* Remove default margins */
+    }
+    
+    .content {
+      width: 90%; /* Ensure content takes up most of the screen width */
+      max-width: none; /* Remove any max-width constraints */
+      padding: 10px; /* Adjust padding */
+      margin: 10px auto; /* Center the card and add margin on top and bottom */
+      box-shadow: 3px 3px 3px 3px hsl(0, 0%, 7%); /* Reduce box-shadow size */
+      border-width: 1px; /* Reduce border width */
+    }
+    
+    .lear {
+      width: 100px; /* Make the button responsive */
+      height: auto; /* Allow height to adjust automatically */
+      font-size: 11px; /* Adjust font size */
+      text-align: center; /* Center align text */
+      padding: 5px; /* Add padding for better appearance */
+    }
+  
+    h1 {
+      font-size: 22px; /* Adjust heading size */
+    }
+    
+    p {
+      margin-left: 5px; /* Reduce margin for paragraphs */
+    }
+  
+    .pub {
+      font-size: 16px; /* Slightly reduce font size */
+    }
+  
+    .attribution {
+      flex-direction: column; /* Stack elements vertically */
+      margin-top: 15px; /* Adjust margin */
+    }
+  
+    .attribution a {
+      font-size: 9px; /* Adjust link font size */
+    }
+  
+    span {
+      flex-direction: column; /* Stack span elements vertically */
+    }
+  
+    img {
+      max-width: 100%; /* Ensure images are responsive */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    svg {
+      width: 100%; /* Make SVGs responsive */
+      height: auto; /* Adjust height automatically */
+    }
+  }
+  
+

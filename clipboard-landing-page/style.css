@@ -1,0 +1,276 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: hsl(210, 10%, 33%);
+
+}
+
+.info {
+    color: hsl(201, 11%, 66%);
+}
+
+.button {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+
+
+}
+
+.button-1 {
+    width: 180px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+
+.button-2 {
+    width: 180px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border-radius: 50px;
+
+}
+
+.info-1 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+
+    p {
+        color: hsl(201, 11%, 66%);
+        padding-bottom: 20px;
+    }
+}
+
+h2 {
+    color: hsl(210, 10%, 33%);
+}
+
+.body {
+    display: flex;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+.comp-img {
+    margin-left: -200px;
+    
+}
+.computer{
+    height: 400px;
+}
+
+.info-2 {
+    margin-left: 150px;
+
+    p {
+        color: hsl(201, 11%, 66%);
+    }
+}
+
+h3 {
+    color: hsl(210, 10%, 33%);
+}
+
+.body-2 {
+    text-align: center;
+
+    p {
+        color: hsl(201, 11%, 66%);
+    }
+}
+
+.info-3 {
+    text-align: center;
+
+    p {
+        color: hsl(201, 11%, 66%);
+    }
+}
+
+.mid {
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 30px;
+
+    h4 {
+        color: hsl(210, 10%, 33%);
+    }
+
+    p {
+        color: hsl(201, 11%, 66%);
+    }
+}
+
+.companies {
+    display: flex;
+    margin-left: 100px;
+    flex-wrap: wrap;
+
+}
+
+.google,
+.microsoft,
+.ibm,
+.hpe,
+.vector-g {
+    padding: 50px;
+}
+
+.las-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo2,
+.footer-item,
+.logos {
+    margin-left: 90px;
+}
+
+.logos {
+    margin-left: 400px;
+
+    img {
+        margin-left: 10px;
+    }
+}
+
+
+.button-1:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.button-2:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.logos .twit:hover {
+    cursor: pointer;
+    filter: invert(48%) sepia(82%) saturate(2889%) hue-rotate(157deg) brightness(101%) contrast(101%);
+}
+
+.para:hover {
+    color: aqua;
+    cursor: pointer;
+
+}
+
+@media (max-width:430px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+
+
+    }
+
+    .button-1 {
+        margin-bottom: 30px;
+    }
+
+    .button-2 {
+        width: 180px;
+        background-color: hsl(233, 100%, 69%);
+        color: white;
+        border-radius: 50px;
+
+    }
+
+    .header {
+        text-align: center;
+    }
+    .body {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    .comp-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+    
+    .computer{
+        height: 200px;
+        margin-left: 50px;
+    }
+    .info-2 {
+        margin-left: -140px;
+    }
+    .devices{
+        height: 200px;
+    }
+
+    .mid{
+        display: flex;
+        flex-direction: column;
+    }
+    .companies{
+        flex-direction: column;
+        margin-left: 0;
+        
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo2,
+    .footer-item,
+    .logos {
+        margin-left: 0px;
+    }
+    
+    .logos {
+        margin-left:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    
+        img {
+            margin-left: 10px;
+        }
+        .twit{
+            padding: 0 10px 0 10px;
+        }
+    }
+
+}
