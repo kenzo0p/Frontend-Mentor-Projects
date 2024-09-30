@@ -1,0 +1,189 @@
+/* div{
+    height: 720;
+    width: 450px;
+    border-radius: 20px;
+    background-color: hsl(0,  0%, 8%);
+    margin-left: 470px; 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    animation:borders 2s linear infinite ;
+
+}
+.item{
+    height: 50px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    background-color:hsl(0, 0%, 20%);
+    animation: none;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;  
+}
+h4{
+    color:  hsl(75, 94%, 57%);
+    margin-top: 10px;
+}
+h2{
+    color: white;
+}
+p{
+    font-size: 14px;
+    color: white;
+    
+    
+}
+img{
+    height: 170px;
+    width: 170px;
+    margin-top: 10px;
+    border-radius: 50%;
+    
+}
+.item:hover{
+    background-color: yellow;
+}
+a:hover{
+    color: black;
+}
+
+
+@keyframes borders{
+    0%{
+        border: 3px solid red;
+        
+    }
+    50%{
+        border: 3px solid green;
+       
+    }
+    100%{
+        border: 3px solid blue;
+       
+
+
+    }
+}
+
+@media (max-width:376px){
+    div{
+        height: 640;
+        width: 360px;
+        margin: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        for 375 pixel mobile
+
+    }
+
+
+
+} */
+div {
+    height: 80vh;
+    width: 80%;
+    max-width: 450px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 8%);
+    margin: 20px auto; /* Center the div horizontally and add margin on top */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    animation: borders 2s linear infinite;
+}
+
+.item {
+    height: 50px;
+    width: 80%;
+    max-width: 300px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    display: flex; /* Ensures centering of content within the item */
+    justify-content: center;
+    align-items: center;
+    animation: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;  
+}
+
+h4 {
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    font-size: 14px;
+    color: white;
+}
+
+img {
+    height: 170px;
+    width: 170px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.item:hover {
+    background-color: yellow;
+}
+
+a:hover {
+    color: black;
+}
+
+@keyframes borders {
+    0% {
+        border: 3px solid red;
+    }
+    50% {
+        border: 3px solid green;
+    }
+    100% {
+        border: 3px solid blue;
+    }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    div {
+        width: 90%;
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    img {
+        height: 140px;
+        width: 140px;
+    }
+
+    .item {
+        width: 90%;
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
